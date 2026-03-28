@@ -1,0 +1,22 @@
+{
+  "plugins": {
+    "symbiosis": {
+      "name": "symbiosis",
+      "version": "1.0.0",
+      "description": "Cognitive symbiosis system — build a living AI model of yourself that evolves with every conversation.",
+      "source": {
+        "source": "github",
+        "repo": "jvzichidaxia/Symbiosis"
+      }
+    },
+    "journal": {
+      "name": "journal",
+      "version": "1.0.0",
+      "description": "AI-powered daily journal — captures your day from Claude Code conversations.",
+      "source": {
+        "source": "github",
+        "repo": "jvzichidaxia/Journal"
+      }
+    }
+  }
+}
