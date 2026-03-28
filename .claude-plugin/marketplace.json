@@ -1,22 +1,32 @@
 {
-  "plugins": {
-    "symbiosis": {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jvzichidaxia-plugins",
+  "description": "Personal Claude Code plugin marketplace — Symbiosis & Journal",
+  "owner": {
+    "name": "jvzichidaxia"
+  },
+  "plugins": [
+    {
       "name": "symbiosis",
-      "version": "1.0.0",
       "description": "Cognitive symbiosis system — build a living AI model of yourself that evolves with every conversation.",
-      "source": {
-        "source": "github",
-        "repo": "jvzichidaxia/Symbiosis"
-      }
-    },
-    "journal": {
-      "name": "journal",
       "version": "1.0.0",
-      "description": "AI-powered daily journal — captures your day from Claude Code conversations.",
       "source": {
-        "source": "github",
-        "repo": "jvzichidaxia/Journal"
-      }
+        "source": "url",
+        "url": "https://github.com/jvzichidaxia/Symbiosis.git",
+        "sha": "fe66c9acdbb2bdc2ef01adfa692e3c2d0191eb0e"
+      },
+      "homepage": "https://github.com/jvzichidaxia/Symbiosis"
+    },
+    {
+      "name": "journal",
+      "description": "AI-powered daily journal — captures your day from Claude Code conversations.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jvzichidaxia/Journal.git",
+        "sha": "58ded17903efdf0a0b2d99201debece7bd8c6240"
+      },
+      "homepage": "https://github.com/jvzichidaxia/Journal"
     }
-  }
+  ]
 }
