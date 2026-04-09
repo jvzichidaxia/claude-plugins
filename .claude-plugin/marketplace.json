@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "jvzichidaxia-plugins",
-  "description": "Personal Claude Code plugin marketplace — Symbiosis & Journal",
+  "description": "Personal Claude Code plugin marketplace",
   "owner": {
     "name": "jvzichidaxia"
   },
@@ -27,6 +27,17 @@
         "sha": "58ded17903efdf0a0b2d99201debece7bd8c6240"
       },
       "homepage": "https://github.com/jvzichidaxia/Journal"
+    },
+    {
+      "name": "nemo",
+      "description": "Personal knowledge system — wiki, cognitive model, and journal in one place.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jvzichidaxia/nemo-plugin.git",
+        "sha": "05e47d6ab6a44a4773ac54bcd23fc2c7376826b6"
+      },
+      "homepage": "https://github.com/jvzichidaxia/nemo-plugin"
     }
   ]
 }
